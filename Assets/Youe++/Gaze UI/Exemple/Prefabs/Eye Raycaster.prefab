@@ -220,7 +220,6 @@ GameObject:
   m_Component:
   - component: {fileID: 22474342}
   - component: {fileID: 22334634}
-  - component: {fileID: 5289860824975345821}
   - component: {fileID: 11412670}
   m_Layer: 5
   m_Name: Eye Raycaster
@@ -271,22 +270,6 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 30001
   m_TargetDisplay: 0
---- !u!114 &5289860824975345821
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 174636}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2c7d5b69a3f8bcd4789cd63639b3a141, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  vrCamera: {fileID: 0}
-  toggleAngle: 30
-  speed: 3
-  moveForward: 1
 --- !u!114 &11412670
 MonoBehaviour:
   m_ObjectHideFlags: 0
