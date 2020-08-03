@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/globe.unity
+    guid: 93509ad1fd20b6443812668d26fe165c
+  - enabled: 1
+    path: Assets/Craters/Scenes/crater.unity
+    guid: 7a5cc0b44ad4e2e49af4efb1a85c457c
   m_configObjects: {}
