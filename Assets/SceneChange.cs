@@ -8,7 +8,7 @@ public class SceneChange : MonoBehaviour
      public int playerSpeed;
      public void change()
     {   
-        transform.position = transform.position+Camera.main.transform.forward*playerSpeed*time.deltatime;
+        transform.position = transform.position+Camera.main.transform.forward*playerSpeed*time.deltaTime;
         yield return new waitforsends(3f);    
         UnityEngine.SceneManagement.SceneManager.LoadScene("crater", LoadSceneMode.Single);
     }
